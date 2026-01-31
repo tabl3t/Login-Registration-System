@@ -8,6 +8,8 @@ Masked password input (password hidden with *)
 Data persistence using file handling
 Simple, menu-driven console interface
 
+v1.0.1 added username availibility
+
 # Technologies Used
 C++
 File Handling (fstream)
