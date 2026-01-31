@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
-#include <conio.h>
+#include<conio.h>
 using namespace std;
+
+bool isUsernametaken(string username)
+{
+    string u,p;
+    ifstream file("userdatabase.txt");
+    while(file>>u>>p){
+        if(u==username){
+            return true;
+        }
+    }
+    return false;
+}
 
 string getmaskedpass()
 {
@@ -32,6 +44,12 @@ void registerUser()
     cout<<"------------SignUp--------------\n\n";
     cout<<"Enter Username: ";
     cin>>regUser;
+
+    if(isUsernametaken(regUser)){
+        cout<<"Username already exists! Please try a different one."<<endl;
+        return;
+    }
+
     cout<<"\nEnter Password: ";
     regPass = getmaskedpass();
 
