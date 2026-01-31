@@ -56,6 +56,9 @@ Understand authentication fundamentals
 Gain experience with file-based storage
 Write clean, readable, modular code
 
+# update
+>> added username availability
+
 # Author
 Shahriar Islam Tamim
 CSE student | C++ | Problem Solving
