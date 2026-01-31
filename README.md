@@ -49,11 +49,12 @@ Password hashing
 Encrypted storage
 Database integration
 
-# Learning Outcomes
-File handling in C++
-Basic authentication logic
-Console input manipulation
-Modular function design
+# Why This Project?
+This project was built to:
+Practice real-world C++ concepts
+Understand authentication fundamentals
+Gain experience with file-based storage
+Write clean, readable, modular code
 
 # Author
 Shahriar Islam Tamim
